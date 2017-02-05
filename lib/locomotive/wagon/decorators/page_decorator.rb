@@ -23,6 +23,7 @@ module Locomotive
           seo_title meta_keywords meta_description
           editable_elements
           content_type
+          slug_ext
           template
           display_settings)
 
