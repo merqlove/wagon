@@ -27,6 +27,11 @@ seo_title: <%= @name %>
 meta_keywords: "some meta keywords"
 meta_description: "some meta description"
 
+# For SEO & URI cleaning puroses. 
+# Adds ability to strict checking slug's extension on every page request if page has attribute <slug_ext>.
+# Disabled by default.
+# strict_slug_enabled: false
+
 # You can control the display of the "Properties" section in the back-office
 # metafields_ui:
 #   label: Store settings # use a hash for localized versions
