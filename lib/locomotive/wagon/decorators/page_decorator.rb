@@ -71,7 +71,11 @@ module Locomotive
       def display_settings
         self[:display_settings]
       end
-
+      
+      def slug_ext
+        self[:slug_ext]
+      end
+      
       def content_type
         templatized? ? content_type_id : nil
       end
