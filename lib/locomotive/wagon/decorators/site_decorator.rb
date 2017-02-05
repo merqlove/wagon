@@ -41,7 +41,7 @@ module Locomotive
       end
 
       def __attributes__
-        %i(name handle robots_txt locales timezone seo_title meta_keywords meta_description picture metafields_schema metafields metafields_ui)
+        %i(name handle robots_txt strict_slug_enabled locales timezone seo_title meta_keywords meta_description picture metafields_schema metafields metafields_ui)
       end
 
       def edited?
@@ -53,7 +53,7 @@ module Locomotive
     class UpdateSiteDecorator < SiteDecorator
 
       def __attributes__
-        %i(picture locales metafields_schema metafields metafields_ui)
+        %i(picture locales strict_slug_enabled metafields_schema metafields metafields_ui)
       end
 
     end
