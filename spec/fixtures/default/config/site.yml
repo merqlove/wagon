@@ -2,6 +2,8 @@ name: Sample website
 
 domains: ['wagon.example.com']
 
+strict_slug_enabled: false
+
 locales: ['en', 'fr', 'nb']
 
 seo_title:
