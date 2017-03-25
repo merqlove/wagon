@@ -20,6 +20,10 @@ module Locomotive
         self[:metafields_schema].try(:to_json)
       end
 
+      def strict_slug_enabled
+        self[:strict_slug_enabled] || false
+      end
+
       def metafields
         replace_with_content_assets_in_hash!(self[:metafields])
         self[:metafields].try(:to_json)
